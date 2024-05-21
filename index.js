@@ -11,6 +11,11 @@ app.get('/hello', (req, res) => {
     res.send('Hello');
 });
 
+app.post('/hello', (req, res) => {
+    const { name } = req.body;
+    res.send(`Hello, ${name}`);
+});
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
