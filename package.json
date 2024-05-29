@@ -2,6 +2,10 @@
   "name": "experienced-fullstack-23074123-node",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo\"Error:no test specified\""
+  },
   "repository": "experienced-fullstack-23074123-node",
   "author": "aniket.sonawane",
   "license": "MIT",
